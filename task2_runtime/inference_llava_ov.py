@@ -10,9 +10,9 @@ import utils_llava_ov as utils
 INPUT_PATH = Path("/input")
 OUTPUT_PATH = Path("/output")
 
-LLAVA_MODEL_ID = "../Models/llava-onevision-qwen2-7b-ov-hf"
-ORGANS_MODEL_PATH = "../Models/organs_classifier/efficientnet_v2_s_v3/epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt"
-TOOLS_MODEL_PATH = "../Models/tools_classifier/efficientnet_v2_s_smoothing_0.025/epoch=11_test_loss=0.12283_f1_avg=0.97795.ckpt"
+LLAVA_MODEL_ID = "/opt/ml/model/Models/llava-onevision-qwen2-7b-ov-hf"
+ORGANS_MODEL_PATH = "/opt/ml/model/Models/organs_classifier/efficientnet_v2_s_v3/epoch=29_test_loss=0.04914_f1_avg=0.98064.ckpt"
+TOOLS_MODEL_PATH = "/opt/ml/model/Models/tools_classifier/efficientnet_v2_s_smoothing_0.025/epoch=11_test_loss=0.12283_f1_avg=0.97795.ckpt"
 
 MAX_NEW_TOKENS = 2048
 NUM_FRAMES = 5
